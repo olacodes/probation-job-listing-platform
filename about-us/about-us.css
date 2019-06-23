@@ -1,0 +1,30 @@
+.about-us-para{
+    box-shadow: 0 0 10px black;
+    margin: 35px 50px;
+    padding: 40px;
+}
+main{
+    margin-top: 50px;
+    text-align: start;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width:800px){
+    .about-us-para{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    main{
+        margin-top: 50px;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    body{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
