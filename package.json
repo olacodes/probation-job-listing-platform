@@ -1,0 +1,15 @@
+{
+  "name": "probation-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "olatunde sodiq",
+  "license": "ISC"
+}
