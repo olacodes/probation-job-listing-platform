@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Job Listing Platform</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Getjob</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-us/about-us.html">About Us</a>
+            </li>
+          </ul>
+          <a class="btn btn-sm btn-primary" href="/admin-login/admin-login.html">Admin Login</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>
+            <span class="main-header-text">Nigeria's No.1 Job Listing Platform</span>
+            <span class="sub-header-text">Find Your Dream Job. Right Now! Right Here</span>
+        </h1>
+
+        <div class="form-wrapper">
+            <form action="#" class="header-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Industries">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Location">  
+                </div>
+                <div>
+                    <input type="submit" class="form-control">
+                </div>
+            </form>
+        </div>
+    </header>
+    <main class="main-wrapper">
+        <section class="description-wrapper card mb-5">
+            <div class="help">
+                <h4 class="help-title">How Getjob Helps You</h4>
+                <p class="help-description">
+                    Getjob gives you tools you need to find the right job and take the next step in your Careers
+                </p>                
+            </div>
+
+            <div class="description">
+                <div class="search-jobs-wrapper card card-body mb-3">
+                    <i class="fa fa-folder fa-4x"></i>
+                    
+                    <p>
+                        <span class="search-title">Search Jobs</span>
+                        <span class="search-content">
+                            We have jobs in the most popular industries and with to companie. Plus, you can create alerts so you never miss a job opportunity.
+                        </span>
+                    </p>
+                </div>
+                <div class="search-jobs-wrapper card card-body mb-3">
+                        <i class="fa fa-user-circle fa-4x"></i>
+                       
+                        <p>
+                            <span class="search-title">Create a Profile and Get Noticed</span>
+                            <span class="search-content">
+                                Create a Profile to showcase your skills and experience so recruiters can find you.
+                                 Upload your CV so you can apply for jobs quickly and easily.
+                            </span>
+                        </p>
+                </div>
+                <div class="search-jobs-wrapper card card-body mb-3">
+                    <i class="fa fa-star  fa-4x"></i>
+                    <p>
+                        <span class="search-title">Be the Best Candidate</span>
+                        <span class="search-content">
+                            Find the trainning you need to improve your skills, or visit our career Center tor tips and advice to build your career.
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="create-account">
+                <a  href="#" class="btn ">CREATE YOUR ACCOUNT</a>
+            </div>
+        </section>
+
+        <section class="top-jobs-header">
+            <h3 class="top-header">Top Jobs</h3>
+            <div class="top">
+                
+            </div>
+        </section>
+
+        <section class="discover-jobs mt-5">
+            <div class="card">
+                <p>
+                    <span class="title">Discover New Jobs</span> 
+                    <span class="dicover-content">There are over 1000 jobs online right now</span>
+                </p>
+
+                <div class="mb-4">
+                    <a href="/all-jobs/all-jobs.html" class="btn all-jobs">BROWSE ALL JOBS</a>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <section class="job-function mt-5 mb-5">
+            <h3>Job Functions</h3>
+            <div class="function-job">
+                <a href="#">Accounting, Auditing & Finance</a>
+            </div>
+            <div class="function-job">
+                <a href="#" class="ict">Information Communication & Technology</a>
+            </div>
+            <div class="function-job">
+                <a href="#">Agricultur & Farming</a>
+            </div>
+            <div class="function-job">
+               <a href="#">Marketing, Sales & Finance</a>
+            </div>
+            <div class="function-job">
+                <a href="#">Engineering</a>
+            </div>
+        </section>
+
+        <section class="employer card">
+            <p class="employer-text">Are you an employer looking to hire quality candidate in Nigeria?</p>
+            <div>
+                <a href="/admin-login/admin-login.html" class="btn">GET STARTED</a>
+            </div>
+        </section>
+
+        <section class="newsletter mt-5">
+            <p>
+                <span class="main-text">Subscrib to Our Newsletter</span>
+                <span class="sub-text">Join our newsletter and keep up to date with the latest news and jobs.</span>
+            </p>
+            
+            <form action="#">
+                <div class="form-group">
+                    <p class="label">First Name</p>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <p class="label">Email</p>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <button type="sumit" class="btn Subscribe">SUBSCRIBE</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <hr>
+
+    <footer>
+        <div class="footer-name">
+            <div class="home text">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="home text">
+                <a href="/about-us/about-us.html">About Us</a>
+            </div>    
+            <div class="home text">
+                <a href="/admin-login/admin-login.html">Admin</a>
+            </div> 
+        </div>
+     
+
+        <div class="fonts">
+            <div class="yahoo icon">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-yahoo fa-stack-1x"></i>
+                </span>
+            </div>
+            <div class="twitter icon">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                </span>
+            </div>
+            <div class="facebook icon">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x"></i>
+                </span>
+            </div>
+            <div class="instagram icon">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x"></i>
+                </span>
+            </div>
+        </div>
+        
+        
+    </footer>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+
+
+</body>
+</html>
