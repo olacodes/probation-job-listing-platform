@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+}
+header{
+    margin-top: 0;
+}
+h3{
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+main{
+    box-shadow: 0 6px #fff;
+}
+
+li{
+    list-style-type: none;
+}
+.wrap{
+    box-shadow: 0 0 10px gray;
+    margin: 15px 5px;
+}
+a{
+    color: #010c1f;
+}
+a:hover{
+    text-decoration-line: none;
+    text-decoration-color: none;
+    color: rgba(2, 3, 22, 0.897);
+}
+.form-wrapper{
+    margin-top: 30px;
+    background-color: #001029;
+}
+.header-form{
+    padding: 20px;
+}
+.job-summary i{
+    color: rgb(255, 94, 0);
+}
+footer{
+    background: #010a18;
+    padding: 10px 10px;
+    border-radius: 5px; 
+}
+.footer-name{
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.text a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.fonts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.yahoo{
+    color:skyblue
+}
+.facebook{
+    color: blue;
+}
+.twitter{
+    color: #fff;
+}
+.instagram{
+    color: palevioletred;
+}
+
+@media screen and (min-width: 700px){
+    .header-form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 580px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+    .form-wrapper{
+        margin: 0;
+    }
+    header{
+        height: 30vh;
+        background-color: #1a4d98
+    }
+    h3{
+        padding-top: 25px;
+    }
+    
+}
+@media screen and (min-width: 900px){
+    body{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .header-form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 580px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+}
