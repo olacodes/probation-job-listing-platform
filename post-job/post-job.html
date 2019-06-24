@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Job Listing Platform</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="/font-awesome.min.css">
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <link rel="stylesheet" href="post-job.css">
+
+</head>
+<body>
+  <div class="contain">
+
+  
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="/index.html">Getjob</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-us/about-us.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <header>
+      <h1>
+          <span class="main-header-text">Nigeria's No.1 Job Listing Platform</span>
+          <span class="sub-header-text">Find Your Dream Job. Right Now! Right Here</span>
+      </h1>
+  </header>
+
+
+
+
+    <div class="main-wrapper">
+        <h4 style="text-align: center" class="p-3">Post A Job</h4>
+        <form action="http://localhost:3000/jobs", method="POST" id="postForm">
+          <div class="wrapper">
+            <div class="contact-form">
+              <div class="input-fields">
+                <input type="text" class="input" required placeholder="Job title" name="title">
+                <input type="text" class="input" required placeholder="Company Name" name="company">
+                <input type="text" class="input" required placeholder="Location" name="location">
+                <input type="number" class="input" required placeholder="Location Id" name="locationId">
+                <input type="text" class="input" required placeholder="Category" name="category">
+                <input type="number" class="input" required placeholder="Category Id" name="categoryId">
+              </div>
+              <div class="msg">
+                <textarea placeholder="Job Description" required name="description"></textarea>
+                <textarea placeholder="Job Summary" required name="summary"></textarea>
+                <input class="btn" type="submit" value="SUBMIT">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    <footer>
+        <div class="footer-name">
+            <div class="home text">
+                <a href="/index.html">Home</a>
+            </div>
+            <div class="home text">
+                <a href="/about-us/about-us.html">About Us</a>
+            </div>    
+        </div>
+     
+
+        <div class="fonts">
+            <div class="yahoo icon">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-yahoo fa-stack-1x"></i>
+                </span>
+            </div>
+            <div class="twitter icon">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                </span>
+            </div>
+            <div class="facebook icon">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x"></i>
+                </span>
+            </div>
+            <div class="instagram icon">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x"></i>
+                </span>
+            </div>
+        </div>
+        
+        
+    </footer>
+  </div>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="/jquery.min.js"></script>
+    <script src="post-job.js"></script>
+</body>
+</html>
