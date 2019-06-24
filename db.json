@@ -1,0 +1,111 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Entry Officer",
+      "company": "Decagon Institute",
+      "description": "The job is for the afdjslnfjfop i fajn;f aiof;   a; fadnskl f; fanfka ls;bjf nf;a ba nf a;f naafdn'jf a;o if ea;hf n;eoufwhfi;nka  ;ewifb djdsbiau hfba lj ",
+      "category": "ICT",
+      "location": "Lagos",
+      "locationId": "1",
+      "categoryId": "1"
+    },
+    {
+      "id": 4,
+      "title": "Entry Officer",
+      "company": "Decagon Institute",
+      "description": "The job is for the afdjslnfjfop i fajn;f aiof;   a; fadnskl f; fanfka ls;bjf nf;a ba nf a;f naafdn'jf a;o if ea;hf n;eoufwhfi;nka  ;ewifb djdsbiau hfba lj ",
+      "category": "ICT",
+      "location": "Lagos",
+      "locationId": "1",
+      "categoryId": "1"
+    },
+    {
+      "title": "ADMIN OFFICER",
+      "company": "HELLO FARM",
+      "location": "IBADAN",
+      "locationId": "2",
+      "category": "AGRICULTURE",
+      "categoryId": "1",
+      "id": 6
+    },
+    {
+      "title": "Security Officer",
+      "company": "Preston",
+      "description": "Our client is in need of a security officer who has two years experience. The individual must be deligent hardworking and success driven at this position and must be good at what he do",
+      "summary": "Our client is in need of a security officer who has two years experience. The individual must be deligent hardworking and success driven at this position and must be good at what he do",
+      "location": "Lagos",
+      "locationId": "1",
+      "category": "security",
+      "categoryId": "1",
+      "id": 10
+    },
+    {
+      "title": "klnfdskg a/nkl anl/bknal ",
+      "company": "dsaaf d s grdzga ",
+      "description": "df   agdghb r efa   ag ",
+      "summary": "sdfzhjsfd  e g g ewsa  sf da ag a",
+      "location": "adg fsnf ",
+      "locationId": "1",
+      "category": "da faeds grfd ",
+      "categoryId": "1",
+      "id": 11
+    },
+    {
+      "title": "klnfdskg a/nkl anl/bknal ",
+      "company": "dsaaf d s grdzga ",
+      "description": "df   agdghb r efa   ag ",
+      "summary": "sdfzhjsfd  e g g ewsa  sf da ag a",
+      "location": "adg fsnf ",
+      "locationId": "1",
+      "category": "da faeds grfd ",
+      "categoryId": "1",
+      "id": 12
+    }
+  ],
+  "location": [
+    {
+      "id": 1,
+      "name": "Lagos"
+    },
+    {
+      "id": 2,
+      "name": "Ibadan"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Information Communication Technology",
+      "summary": "Our client in the information and communication technology industry is looking for a capable ict engineer"
+    },
+    {
+      "id": 2,
+      "name": "Marketing",
+      "summary": "Our client in the Marketing industry is looking for a capable Marketer that can sell products"
+    }
+  ],
+  "Admin": [
+    {
+      "id": 1,
+      "firstname": "Olatunde",
+      "lastname": "Sodiq",
+      "email": "olatundesodiq@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "firstname": "Ade",
+      "lastname": "Adeola",
+      "email": "ade@gmail.com",
+      "password": "123"
+    },
+    {
+      "firstname": "Akin",
+      "lastname": "Adebisi",
+      "email": "akinadebisi@gmail.com",
+      "password": "akin",
+      "id": 3
+    }
+  ]
+}
