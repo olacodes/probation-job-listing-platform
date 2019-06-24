@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+}
+header{
+    margin-top: 0;
+}
+h3{
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+main{
+    box-shadow: 0 6px #fff;
+}
+
+
+.form-wrapper{
+    margin-top: 30px;
+    background-color: #1a4d98;
+}
+.header-form{
+    padding: 20px;
+}
+
+footer{
+    background: #1a4d98;
+    padding: 10px 10px;
+    border-radius: 5px; 
+}
+.footer-name{
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.text a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.fonts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.yahoo{
+    color:skyblue
+}
+.facebook{
+    color: blue;
+}
+.twitter{
+    color: #fff;
+}
+.instagram{
+    color: palevioletred;
+}
+.updateDelete{
+    display: block;
+    text-align: right;
+    justify-content: right
+}
+@media screen and (min-width: 700px){
+   
+    .header-form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 580px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+    .form-wrapper{
+        margin: 0;
+    }
+    header{
+        height: 30vh;
+        background-color: #1a4d98
+    }
+    h3{
+        padding-top: 25px;
+    }
+    
+}
+@media screen and (min-width: 900px){
+    body{
+        width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .header-form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 580px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+}
