@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: #fff;
+    font-family:'Lato', sans-serif, monospace;
+    letter-spacing: 1px;
+}
+header{
+    background-image: linear-gradient(
+        to right bottom,rgba(13, 58, 24, 0.644), 
+        rgba(31, 184, 64, 0.822)), url(/img/images.jpeg);
+    background-position: center;
+    height: 60vh;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.main-header-text{
+    font-weight: 300;
+    display: block;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.sub-header-text{
+    font-weight: 200;
+    display: block;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+.form-wrapper{
+    margin:0 auto;
+    margin-top: 100px;
+    height: 10px;
+    width: 80%;
+} 
+.header-form{
+    border: rgba(63, 61, 61, 0.336) solid 20px;
+    border-radius: 10px;
+    
+}
+/* Top Jobs */
+.top-jobs-header{
+    margin-top: 40px;
+}
+.top-header{
+    text-align: center;
+}
+.top-each{
+    box-shadow: 5px 5px rgba(119, 114, 114, 0.26);
+    margin: 10px;
+}
+.top-jobs{
+    text-align: left;
+    line-height: 10px;
+
+}
+li{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 20px;
+    
+}
+.title{
+    font-size: 30px;
+    font-weight: 100px;
+    display: block;
+    padding-top: 20px;
+    
+}
+.single{
+   color: inherit;
+   text-decoration: none;
+}
+a:hover{
+    color: rgba(7, 49, 7, 0.651);
+    text-decoration: none;
+    cursor: pointer;
+}
+.job-function{
+    text-align: center
+}
+.function-job{
+    line-height: 40px;
+}
+.function-job a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+/* Footer */
+footer{
+    background:  #135e04d3;
+    padding: 10px 10px;
+    border-radius: 7px;
+
+    
+}
+.footer-name{
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text a{
+    text-decoration: none;
+    color: #fff;
+}
+.text{
+    margin-bottom: 10px;
+}
+.fonts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.yahoo{
+    color:skyblue
+}
+.facebook{
+    color: blue;
+}
+.twitter{
+    color: #fff;
+}
+.instagram{
+    color: palevioletred;
+}
+
+
+@media screen and (min-width: 700px){
+    body{
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-header-text{
+        font-size: 37px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    .sub-header-text{
+        font-size: 23px;
+    
+    }
+    
+    .header-form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .top{
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .top-each{
+        width: 300px;
+    }
+  
+
+}
+@media screen and (min-width: 800px){
+    .description{
+        padding-top: 20px;
+        display: flex;
+    }
+   
+} 
+/* @media screen and (min-width: 900px){
+    .discover-jobs, .employer, .newsletter {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
