@@ -1,7 +1,7 @@
 $(function(){
     $.ajax({
         method:"GET",
-        url: "http://localhost:3000/jobs?_limit=10"
+        url: "http://localhost:3000/jobs"
     })
     .done(function(datas){
         let output = ""
@@ -13,7 +13,7 @@ $(function(){
                 <h5>${data.company}</h5>
                 <li>${data.title}</li>
                 <li>${data.location}</li>
-                <li>${data.category}</li>
+                <li>${data.category} <button class="btn btn-sm btn-primary" style="float:right">Details</button></li>
         </div>
         </a>
         `
