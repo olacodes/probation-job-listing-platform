@@ -37,9 +37,7 @@ $("#updateForm").submit(function(e){
         categoryId:categoryId
     }
 
-    window.alert = `<div class="alert alert-dark" role="alert">
-    This is a dark alert—check it out!
-</div>`
+
     $.ajax({
         method:"PUT",
         url: `http://localhost:3000/jobs/${localStorage.getItem("jobId")}`,
