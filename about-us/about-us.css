@@ -5,14 +5,14 @@
 }
 main{
     margin-top: 50px;
-    text-align: start;
+    text-align: center;
     letter-spacing: 1px;
 }
 
 @media screen and (min-width:800px){
     .about-us-para{
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     main{
         margin-top: 50px;
@@ -21,7 +21,7 @@ main{
         font-size: 18px;
     }
     body{
-        width: 85%;
+        width: 900px;
         margin-left: auto;
         margin-right: auto;
     }
