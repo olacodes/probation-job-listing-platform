@@ -48,15 +48,14 @@ $(function(){
                 if (!admin.email == emailVal && admin.password == passwordVal) {
                  
                     window.alert("Incorrect password or email")
-                    window.location = "/admin-login/admin-login.html"
+                    window.location = "admin-login/admin-login.html"
                     i++
                 
                 }else{
                    
-                    window.location = "/admin/admin.html"
+                    window.location = "../admin/admin.html"
                     window.alert("WELCOME BACK ADMIN")
                     break;
-                    console.log(admin.password);
                 }
                 
             }

@@ -22,7 +22,7 @@ main{
 header{
     background-image: linear-gradient(
         to right bottom,rgba(13, 58, 24, 0.644), 
-        rgba(73, 5, 58, 0.979)), url(/img/images.jpeg);
+        rgba(73, 5, 58, 0.979)), url(../img/images.jpeg);
     background-position: center;
     height: 15vh;
     background-size: cover;
