@@ -20,7 +20,7 @@ h4{
 header{
   background-image: linear-gradient(
       to right bottom,rgba(4, 0, 255, 0.438), 
-      rgba(5, 9, 73, 0.979)), url(/img/images.jpeg);
+      rgba(5, 9, 73, 0.979)), url(../img/images.jpeg);
   background-position: center;
   height: 15vh;
   background-size: cover;

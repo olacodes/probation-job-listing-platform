@@ -28,8 +28,7 @@ $("#postForm").submit(function(e){
         data: posting
     })
     .done(function(data){
-        window.location = "/admin/admin.html"
-        console.log(data);
+        window.location = "../admin/admin.html"
         
     })
  
