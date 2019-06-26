@@ -61,6 +61,17 @@
       "category": "da faeds grfd ",
       "categoryId": "1",
       "id": 12
+    },
+    {
+      "title": "Front End Developer",
+      "company": "Andela",
+      "description": "This is a front end job that the applicant should have at least a year experience in development of website using HTML, CSS and Javascript to design user interface and user experience",
+      "summary": "This is a front end job that the applicant should have at least a year experience in development of website using HTML, CSS and Javascript to design user interface and user experience",
+      "location": "Lagos",
+      "locationId": "1",
+      "category": "ICT",
+      "categoryId": "1",
+      "id": 13
     }
   ],
   "location": [
