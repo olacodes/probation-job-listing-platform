@@ -1,24 +1,26 @@
 {
   "jobs": [
     {
-      "id": 1,
       "title": "Entry Officer",
       "company": "Decagon Institute",
-      "description": "The job is for the afdjslnfjfop i fajn;f aiof;   a; fadnskl f; fanfka ls;bjf nf;a ba nf a;f naafdn'jf a;o if ea;hf n;eoufwhfi;nka  ;ewifb djdsbiau hfba lj ",
-      "category": "ICT",
+      "description": "Translate UI/UX design wireframes to actual code that will produce visual elements of the application.\n\nCreate new user-facing features\nBuild reusable code and libraries for future use\nEnsure the technical feasibility of UI/UX designs\nOptimize application for maximum speed and scalability\nConsume internally and externally built APIs from backend services.\nCollaborate with other team members and stakeholders\nDesign efficient and reusable front-end systems that drive complex web applications\nCollaborate with Product Designers, Product Managers, and Software Engineers to deliver compelling user-facing products\nIdentify and resolve performance and scalability issue",
+      "summary": "Minimum of First Degree in any Discipline\nMinimum Experience\nProficient understanding of web markup, including HTML5, CSS3\nBasic understanding of server-side CSS pre-processing platforms, such as LESS, SASS, SCSS\nProficient understanding of client-side scripting using Javascript i.e. ReactJs or VueJs\nGood understanding of asynchronous request handling, partial page updates, and Ajax\nProficient understanding of cross-browser compatibility issues and ways to work around them.\nProficient understanding of code versioning tools, such as Git.",
       "location": "Lagos",
       "locationId": "1",
-      "categoryId": "1"
+      "category": "ICT",
+      "categoryId": "1",
+      "id": 1
     },
     {
-      "id": 4,
       "title": "Entry Officer",
       "company": "Decagon Institute",
-      "description": "The job is for the afdjslnfjfop i fajn;f aiof;   a; fadnskl f; fanfka ls;bjf nf;a ba nf a;f naafdn'jf a;o if ea;hf n;eoufwhfi;nka  ;ewifb djdsbiau hfba lj ",
-      "category": "ICT",
+      "description": "Minimum of First Degree in any Discipline\nMinimum Experience\nProficient understanding of web markup, including HTML5, CSS3\nBasic understanding of server-side CSS pre-processing platforms, such as LESS, SASS, SCSS\nProficient understanding of client-side scripting using Javascript i.e. ReactJs or VueJs\nGood understanding of asynchronous request handling, partial page updates, and Ajax\nProficient understanding of cross-browser compatibility issues and ways to work around them.\nProficient understanding of code versioning tools, such as Git.",
+      "summary": "Job Description\nTranslate UI/UX design wireframes to actual code that will produce visual elements of the application.\n\nCreate new user-facing features\nBuild reusable code and libraries for future use\nEnsure the technical feasibility of UI/UX designs\nOptimize application for maximum speed and scalability\nConsume internally and externally built APIs from backend services.\nCollaborate with other team members and stakeholders\nDesign efficient and reusable front-end systems that drive complex web applications\nCollaborate with Product Designers, Product Managers, and Software Engineers to deliver compelling user-facing products\nIdentify and resolve performance and scalability issue",
       "location": "Lagos",
       "locationId": "1",
-      "categoryId": "1"
+      "category": "ICT",
+      "categoryId": "1",
+      "id": 4
     },
     {
       "title": "ADMIN OFFICER",
