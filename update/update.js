@@ -45,6 +45,6 @@ $("#updateForm").submit(function(e){
     })
     .done(function(e){
        
-        window.location = "/admin-single/admin-single.html"
+        window.location = "../admin-single/admin-single.html"
     })
 })
