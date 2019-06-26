@@ -22,8 +22,8 @@ $(function(){
                     ${data.description}
                 </p>
                 <div class="updateDelete">
-                <a href="#" class="update btn btn-info btn-lg text-right" id="${data.id}">UPDATE</a>
-                <a href="/delete/delete.html" class="delete btn btn-danger btn-lg" id="${data.id}">DELETE</a>
+                <a href="../update/update.html" class="update btn btn-info btn-lg text-right" id="${data.id}">UPDATE</a>
+                <a href="../delete/delete.html" class="delete btn btn-danger btn-lg" id="${data.id}">DELETE</a>
                 </div>
             </div>
            
