@@ -15,9 +15,7 @@ $.ajax({
     </div>
     <div class="job-summary card card-body">
         <h5 class="pb-2">Job Summary</h5>
-        <p>
-            Managing the day to day marketing activities of the organisation and long term marketing strategy for the company.
-        </p>
+        <p>${data.summary}</p>
     </div>
     <div class="job-description card card-body">
             <h4 class="pb-2">Job Description</h4>
