@@ -7,7 +7,7 @@ $(function(){
         let output = ""
         datas.forEach(data => {
             output+=`
-            <a href="/admin-single/admin-single.html" class="single" id="${data.id}">
+            <a href="../admin-single/admin-single.html" class="single" id="${data.id}">
             <div class="top-each card card-body">               
             
                 <h5>${data.company}</h5>
